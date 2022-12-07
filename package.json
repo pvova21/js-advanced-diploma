@@ -8,7 +8,8 @@
     "lint": "eslint .",
     "coverage": "jest --coverage",
     "test": "jest",
-    "start": "webpack serve --mode development"
+    "start": "webpack serve --mode development",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/pvova21/js-advanced-diploma/issues"
   },
-  "homepage": "https://github.com/pvova21/js-advanced-diploma#readme",
+  "homepage": "https://pvova21.github.io/js-advanced-diploma#dist",
   "devDependencies": {
     "@babel/cli": "^7.19.3",
     "@babel/core": "^7.20.2",
